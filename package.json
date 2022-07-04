@@ -20,5 +20,9 @@
   },
   "workspaces": [
     "services"
-  ]
+  ],
+  "dependencies": {
+    "aws-sdk": "^2.1167.0",
+    "uuid": "^8.3.2"
+  }
 }
