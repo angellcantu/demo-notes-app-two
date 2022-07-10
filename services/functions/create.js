@@ -18,7 +18,6 @@ export const main = handler(async event => {
             createdAt: Date.now() // Current unix timestamp
         }
     };
-
     await dynamodb.put(params);
     return params.Item;
 });
